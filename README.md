@@ -1,5 +1,9 @@
 # Image-Forgery
 ## Paperlist
+- paper:[Unifying Semantic Priors and High-Frequency Traces: Enhancing V-JEPA with Mixture-of-Experts for Robust Synthetic Image Forensics](https://arxiv.org/abs/2609.16778)(2026.09)
+- github:[https://github.com/ALCOR-Lab-DIAG/MoE-JEPA](https://github.com/ALCOR-Lab-DIAG/MoE-JEPA)
+- paper:[From Detection to Localization: A Unified Forensics Framework for Fully Synthetic and Tampered Images](https://arxiv.org/abs/2609.02640)
+- github:[https://github.com/anngal01/From-Detection-to-Localization-A-Unified-Forensics-Framework-for-Fully-Synthetic-and-Tampered-Images](https://github.com/anngal01/From-Detection-to-Localization-A-Unified-Forensics-Framework-for-Fully-Synthetic-and-Tampered-Images)
 - paper:[Code-in-the-Loop Forensics: Agentic Tool Use for Image Forgery Detection](https://arxiv.org/abs/2512.16300)(2025.12)
 - paper:[Training-Free Image Manipulation Localization Using Diffusion Models](https://www.paperdigest.org/paper/?paper_id=aaai-33126-2025-02-25)(AAAI 2025)
 - paper:[A Lottery Ticket Hypothesis Approach with Sparse Fine-tuning and MAE for Image Forgery Detection and Localization](https://www.paperdigest.org/paper/?paper_id=aaai-33192-2025-02-25)(AAAI 2025)
