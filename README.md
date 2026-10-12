@@ -1,82 +1,138 @@
-# Image-Forgery
-## Paperlist
-- paper:[Unifying Semantic Priors and High-Frequency Traces: Enhancing V-JEPA with Mixture-of-Experts for Robust Synthetic Image Forensics](https://arxiv.org/abs/2609.16778)(2026.09)
-- github:[https://github.com/ALCOR-Lab-DIAG/MoE-JEPA](https://github.com/ALCOR-Lab-DIAG/MoE-JEPA)
-- paper:[From Detection to Localization: A Unified Forensics Framework for Fully Synthetic and Tampered Images](https://arxiv.org/abs/2609.02640)(2026.09)
-- github:[https://github.com/anngal01/From-Detection-to-Localization-A-Unified-Forensics-Framework-for-Fully-Synthetic-and-Tampered-Images](https://github.com/anngal01/From-Detection-to-Localization-A-Unified-Forensics-Framework-for-Fully-Synthetic-and-Tampered-Images)
-- paper:[Code-in-the-Loop Forensics: Agentic Tool Use for Image Forgery Detection](https://arxiv.org/abs/2512.16300)(2025.12)
-- paper:[Training-Free Image Manipulation Localization Using Diffusion Models](https://www.paperdigest.org/paper/?paper_id=aaai-33126-2025-02-25)(AAAI 2025)
-- paper:[A Lottery Ticket Hypothesis Approach with Sparse Fine-tuning and MAE for Image Forgery Detection and Localization](https://www.paperdigest.org/paper/?paper_id=aaai-33192-2025-02-25)(AAAI 2025)
-- paper:[Mesoscopic Insights: Orchestrating Multi-Scale &amp; Hybrid Architecture for Image Manipulation Localization](https://www.paperdigest.org/paper/?paper_id=aaai-33198-2025-02-25)(AAAI 2025)
-- paper:[SAFIRE: Segment Any Forged Image Region](https://www.paperdigest.org/paper/?paper_id=aaai-32467-2025-02-25)(AAAI 2025)
-- paper:[Critical Forgetting-Based Multi-Scale Disentanglement for Deepfake Detection](https://www.paperdigest.org/paper/?paper_id=aaai-32021-2025-02-25)(AAAI 2025)
-- paper:[SUMI-IFL: An Information-Theoretic Framework for Image Forgery Localization with Sufficiency and Minimality ConstraintsRelated](https://www.paperdigest.org/paper/?paper_id=aaai-32054-2025-02-25)(AAAI 2025)
-- paper:[M²RL-Net: Multi-View and Multi-Level Relation Learning Network for Weakly-Supervised Image Forgery Detection](https://www.paperdigest.org/paper/?paper_id=aaai-32501-2025-02-25)(AAAI 2025)
-- paper:[FakeDiffer: Distributional Disparity Learning on Differentiated Reconstruction for Face Forgery Detection](https://www.paperdigest.org/paper/?paper_id=aaai-32809-2025-02-25)(AAAI 2025)
-- paper:[SUMI-IFL: An Information-Theoretic Framework for Image Forgery Localization with Sufficiency and Minimality Constraints](https://www.paperdigest.org/paper/?paper_id=aaai-32054-2025-02-25)(AAAI 2025)
-- paper:[Thinking Racial Bias in Fair Forgery Detection: Models, Datasets and Evaluations](https://www.paperdigest.org/paper/?paper_id=aaai-32572-2025-02-25)(AAAI 2025)
-- paper:[WildFake: A Large-Scale and Hierarchical Dataset for AI-Generated Images Detection](https://www.paperdigest.org/paper/?paper_id=aaai-32363-2025-02-25)(AAAI 2025)
-- paper:[Critical Forgetting-Based Multi-Scale Disentanglement for Deepfake Detection](https://www.paperdigest.org/paper/?paper_id=aaai-32021-2025-02-25)(AAAI 2025)
-- paper:[Revisiting Tampered Scene Text Detection in The Era of Generative AI](https://www.paperdigest.org/paper/?paper_id=aaai-32051-2025-02-25)(AAAI 2025)
-- paper:[Transfer Learning of Real Image Features with Soft Contrastive Loss for Fake Image Detection](https://www.paperdigest.org/paper/?paper_id=aaai-34826-2025-02-25)(AAAI 2025)
-- paper:[DFPD: Dual-Forgery Proactive Defense against Both Deepfakes and Traditional Image Manipulations]()(CCF-A 2025)
-- github:[https://github.com/imagecbj/DFPD](https://github.com/imagecbj/DFPD)
-- paper:[Forensics Adapter: Adapting CLIP for Generalizable Face Forgery Detection](https://cvpr.thecvf.com/virtual/2025/poster/33184)(CVPR 2025)
-- paper:[Stacking Brick by Brick: Aligned Feature Isolation for Incremental Face Forgery Detection](https://cvpr.thecvf.com/virtual/2025/poster/33944)(CVPR 2025)
-- paper:[Towards General Visual-Linguistic Face Forgery Detection](https://cvpr.thecvf.com/virtual/2025/poster/33669)(CVPR 2025)
-- paper:[Towards Universal AI-Generated Image Detection by Variational Information Bottleneck Network](https://cvpr.thecvf.com/virtual/2025/poster/35206)(CVPR 2025)
-- paper:[A Bias-Free Training Paradigm for More General AI-generated Image Detection](https://cvpr.thecvf.com/virtual/2025/poster/34882)(CVPR 2025)
-- paper：[Community Forensics: Using Thousands of Generators to Train Fake Image Detectors](https://cvpr.thecvf.com/virtual/2025/poster/32740)(CVPR 2025)
-- paper:[SIDA: Social Media Image Deepfake Detection, Localization and Explanation with Large Multimodal Model](https://cvpr.thecvf.com/virtual/2025/poster/32427)(CVPR 2025)
-- paper:[Any-Resolution AI-Generated Image Detection by Spectral Learning](https://cvpr.thecvf.com/virtual/2025/poster/33589)(CVPR 2025)
-- paper:[Circumventing Shortcuts in Audio-visual Deepfake Detection Datasets with Unsupervised Learning](https://cvpr.thecvf.com/virtual/2025/poster/35194)(CVPR 2025)
-- paper:[FreqDebias: Towards Generalizable Deepfake Detection via Consistency-Driven Frequency Debiasing](https://cvpr.thecvf.com/virtual/2025/poster/33990)(CVPR 2025)
-- paper:[Aligned Datasets Improve Detection of Latent Diffusion-Generated Images](https://iclr.cc/virtual/2025/poster/28964)(ICLR 2025)
-- paper:[FakeShield: Explainable Image Forgery Detection and Localization via Multi-modal Large Language Models](https://iclr.cc/virtual/2025/poster/28315)(ICLR 2025)
-- github:[https://github.com/zhipeixu/FakeShield](https://github.com/zhipeixu/FakeShield)
-- paper:[STD-FD: Spatio-Temporal Distribution Fitting Deviation for AIGC Forgery Identification](https://icml.cc/virtual/2025/poster/45231)(ICML 2025)
-- github:[https://github.com/HengruiLou/STDFD](https://github.com/HengruiLou/STDFD)
-- paper:[Orthogonal Subspace Decomposition for Generalizable AI-Generated Image Detection](https://icml.cc/virtual/2025/oral/47242)(ICML 2025)
-- paper:[EAN: Edge-Aware Network for Image Manipulation Localization](https://ieeexplore.ieee.org/document/10705343)(IEEE TCSVT)
-- paper:[AFCMS-Net: Adaptive feature coupling and multi-level supervision network for effective image forgery localization](https://www.sciencedirect.com/science/article/pii/S0950705125011670)(KBS 2025)
-- github:[https://github.com/SwallowIsXYZ/0617_AFCMS-Net](https://github.com/SwallowIsXYZ/0617_AFCMS-Net)
-- paper:[M2SFormer: Multi-Spectral and Multi-Scale Attention with Edge-Aware Difficulty Guidance for Image Forgery Localization](https://arxiv.org/abs/2506.20922) (2025.06)
-- paper:[SFNet: Fusion of Spatial and Frequency-Domain Features for Remote Sensing Image Forgery Detection](https://arxiv.org/abs/2506.20599)(2025.06)
-- github:[https://github.com/GeoX-Lab/RSTI/tree/main/SFNet](https://github.com/GeoX-Lab/RSTI/tree/main/SFNet)
-- paper:[Loupe: A Generalizable and Adaptive Framework for Image Forgery Detection](https://arxiv.org/abs/2506.16819)(2025.06)
-- github:[https://github.com/Kamichanw/Loupe](https://github.com/Kamichanw/Loupe)
-- paper:[MUN: Image Forgery Localization Based on M3 Encoder and UN Decoder](https://ojs.aaai.org/index.php/AAAI/article/view/32606) (2025.04)
-- github:[https://github.com/MrHuan3/MUN](https://github.com/MrHuan3/MUN)
-- paper:[Reinforced Multi-teacher Knowledge Distillation for Efficient General Image Forgery Detection and Localization](https://arxiv.org/abs/2504.05224) (2025.04)
-- paper:[Zooming In on Fakes: A Novel Dataset for Localized AI-Generated Image Detection with Forgery Amplification Approach](https://arxiv.org/abs/2504.11922)(2025.04)
-- github:[https://github.com/clpbc/BR-Gen](https://github.com/clpbc/BR-Gen)
-- paper:[OpenSDI: Spotting Diffusion-Generated Images in the Open World](https://arxiv.org/abs/2503.19653) (2025.03)
-- github:[https://github.com/iamwangyabin/OpenSDI](https://github.com/iamwangyabin/OpenSDI)
-- paper:[DeCLIP: Decoding CLIP representations for deepfake localization](https://ieeexplore.ieee.org/abstract/document/10943612) (2025.02)
-- github:[https://github.com/bit-ml/DeCLIP](https://github.com/bit-ml/DeCLIP)
-- paper:[Pixel-Inconsistency Modeling for Image Manipulation Localization](https://ieeexplore.ieee.org/abstract/document/10883001) (2025.02)
-- github:[https://github.com/ChenqiKONG/PIM](https://github.com/ChenqiKONG/PIM)
-- paper:[A Lightweight and Effective Image Tampering Localization Network with Vision Mamba](https://arxiv.org/abs/2502.09941)(2025.02)
-- github:[https://github.com/multimediaFor/ForMa](https://github.com/multimediaFor/ForMa)
-- paper:[Mesoscopic Insights: Orchestrating Multi-scale & Hybrid Architecture for Image Manipulation Localization](https://doi.org/10.48550/arXiv.2412.13753) (2024.12)
-- github:[https://github.com/scu-zjz/Mesorch](https://github.com/scu-zjz/Mesorch)
-- paper:[Can We Get Rid of Handcrafted Feature Extractors? SparseViT: Nonsemantics-Centered, Parameter-Efficient Image Manipulation Localization through Spare-Coding Transformer](https://arxiv.org/abs/2412.14598)
-- github:[https://github.com/scu-zjz/SparseViT](https://github.com/scu-zjz/SparseViT)
-- paper:[Forensics Adapter: Adapting CLIP for Generalizable Face Forgery Detection](https://doi.org/10.48550/arXiv.2411.19715) (2024.12)
-- github:[https://github.com/OUC-VAS/ForensicsAdapter](https://github.com/OUC-VAS/ForensicsAdapter)
-- paper:[ Copy-Move Forgery Detection and Question Answering for Remote Sensing Image](https://arxiv.org/pdf/2412.02575)(2024.12)
-- github:[https://github.com/shenyedepisa/RSCMQA](https://github.com/shenyedepisa/RSCMQA)
-- paper:[A Large-scale Interpretable Multi-modality Benchmark for Facial Image Forgery Localization](https://arxiv.org/abs/2412.19685)(2024.12)
-- paper:[Image Forgery Localization with State Space Models](https://arxiv.org/abs/2412.11214)(2024.12)
-- github:[https://github.com/multimediaFor/LoMa](https://github.com/multimediaFor/LoMa)
-- paper:[FakeShield: Explainable Image Forgery Detection and Localization via Multi-modal Large Language Models](https://arxiv.org/abs/2410.02761) (2024.10)
-- github:[https://github.com/zhipeixu/FakeShield](https://github.com/zhipeixu/FakeShield)
-- paper:[Exploring Multi-view Pixel Contrast for General and Robust Image Forgery Localization](https://arxiv.org/abs/2406.13565)(2024.06)
-- github:[https://github.com/multimediaFor/MPC](https://github.com/multimediaFor/MPC)
-- paper:[Object-level Copy-Move Forgery Image Detection based on Inconsistency Mining](https://arxiv.org/abs/2404.00611)(2024.04)
-- paper:[Frequency-Aware Deepfake Detection: Improving Generalizability through Frequency Space Learning](https://arxiv.org/pdf/2403.07240) (2024.03)
-- github:[https://github.com/chuangchuangtan/freqnet-deepfakedetection](https://github.com/chuangchuangtan/freqnet-deepfakedetection)
-- paper:[Progressive Feedback-Enhanced Transformer for Image Forgery Localization](https://arxiv.org/abs/2311.08910)(2023.11)
-- github:[https://github.com/multimediaFor/ProFact](https://github.com/multimediaFor/ProFact)
-- paper:[TruFor: Leveraging all-round clues for trustworthy image forgery detection and localization](http://arxiv.org/abs/2212.10957) (2022.12)
-- github:[https://grip-unina.github.io/TruFor](https://grip-unina.github.io/TruFor)
+# Image Forgery Detection & Localization
+
+<p align="center">
+  <b>A curated reading list for image manipulation, forgery detection, and localization.</b><br>
+  Papers are grouped by task and ordered roughly from recent to earlier work. Links point to papers, project pages, or code when available.
+</p>
+
+> **Scope:** This list focuses on image forgery and manipulation. Video-only forgery and face-only deepfake detection are separate topics and are not mixed into the core categories. Entries retained from the original list are marked where appropriate by their original links; this list is community-curated and may contain preprints.
+
+## Contents
+
+- [General image manipulation detection and localization](#general-image-manipulation-detection-and-localization)
+- [AIGC and generative image forensics](#aigc-and-generative-image-forensics)
+- [Image splicing and compositing](#image-splicing-and-compositing)
+- [Copy-move forgery](#copy-move-forgery)
+- [Image inpainting and local editing](#image-inpainting-and-local-editing)
+- [Document and tampered text detection](#document-and-tampered-text-detection)
+- [Resources](#resources)
+
+## General image manipulation detection and localization
+
+Methods that detect or localize image manipulations across multiple edit types.
+
+| Paper | Venue / year | Links |
+|---|---|---|
+| From Detection to Localization: A Unified Forensics Framework for Fully Synthetic and Tampered Images | arXiv, 2026 | [Paper](https://arxiv.org/abs/2609.02640) · [Code](https://github.com/anngal01/From-Detection-to-Localization-A-Unified-Forensics-Framework-for-Fully-Synthetic-and-Tampered-Images) |
+| A Lottery Ticket Hypothesis Approach with Sparse Fine-tuning and MAE for Image Forgery Detection and Localization | AAAI, 2025 | [Paper](https://www.paperdigest.org/paper/?paper_id=aaai-33192-2025-02-25) |
+| Mesoscopic Insights: Orchestrating Multi-Scale & Hybrid Architecture for Image Manipulation Localization | AAAI, 2025 | [Paper](https://arxiv.org/abs/2412.13753) · [Code](https://github.com/scu-zjz/Mesorch) |
+| SAFIRE: Segment Any Forged Image Region | AAAI, 2025 | [Paper](https://arxiv.org/abs/2412.08197) |
+| M²RL-Net: Multi-View and Multi-Level Relation Learning Network for Weakly-Supervised Image Forgery Detection | AAAI, 2025 | [Paper](https://www.paperdigest.org/paper/?paper_id=aaai-32501-2025-02-25) |
+| Reinforced Multi-teacher Knowledge Distillation for Efficient General Image Forgery Detection and Localization | AAAI, 2025 | [Paper](https://arxiv.org/abs/2504.05224) |
+| MUN: Image Forgery Localization Based on M³ Encoder and UN Decoder | AAAI, 2025 | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/32606) · [Code](https://github.com/MrHuan3/MUN) |
+| Loupe: A Generalizable and Adaptive Framework for Image Forgery Detection | IJCAI, 2025 | [Paper](https://arxiv.org/abs/2506.16819) · [Code](https://github.com/Kamichanw/Loupe) |
+| M2SFormer: Multi-Spectral and Multi-Scale Attention with Edge-Aware Difficulty Guidance for Image Forgery Localization | ICCV, 2025 | [Paper](https://arxiv.org/abs/2506.20922) |
+| Pixel-Inconsistency Modeling for Image Manipulation Localization | 2025 | [Paper](https://ieeexplore.ieee.org/abstract/document/10883001) · [Code](https://github.com/ChenqiKONG/PIM) |
+| A Lightweight and Effective Image Tampering Localization Network with Vision Mamba | SPL, 2025 | [Paper](https://arxiv.org/abs/2502.09941) · [Code](https://github.com/multimediaFor/ForMa) |
+| SUMI-IFL: An Information-Theoretic Framework for Image Forgery Localization with Sufficiency and Minimality Constraints | 2024 | [Paper](https://arxiv.org/abs/2412.09981) |
+| Image Forgery Localization with State Space Models | 2024 | [Paper](https://arxiv.org/abs/2412.11214) · [Code](https://github.com/multimediaFor/LoMa) |
+| FakeShield: Explainable Image Forgery Detection and Localization via Multi-modal Large Language Models | ICLR, 2025 | [Paper](https://arxiv.org/abs/2410.02761) · [Code](https://github.com/zhipeixu/FakeShield) |
+| Exploring Multi-view Pixel Contrast for General and Robust Image Forgery Localization | 2025 | [Paper](https://arxiv.org/abs/2406.13565) · [Code](https://github.com/multimediaFor/MPC) |
+| Progressive Feedback-Enhanced Transformer for Image Forgery Localization | 2023 | [Paper](https://arxiv.org/abs/2311.08910) · [Code](https://github.com/multimediaFor/ProFact) |
+| TruFor: Leveraging All-Round Clues for Trustworthy Image Forgery Detection and Localization | CVPR, 2023 | [Paper](https://arxiv.org/abs/2212.10957) · [Project](https://grip-unina.github.io/TruFor) |
+| Effective Image Tampering Localization via Enhanced Transformer and Co-attention Fusion | ICASSP, 2024 | [Paper](https://arxiv.org/abs/2309.09306) · [Code](https://github.com/multimediaFor/EITLNet) |
+| Image Tampering Localization Using a Dense Fully Convolutional Network | TIFS, 2021 | [Paper](https://ieeexplore.ieee.org/document/9393396) · [Code](https://github.com/ZhuangPeiyu/Dense-FCN-for-tampering-localization) |
+
+## AIGC and generative image forensics
+
+Distinguishing synthetic images from camera imagery, detecting generative edits, and localizing AI-generated regions.
+
+| Paper | Venue / year | Links |
+|---|---|---|
+| Unifying Semantic Priors and High-Frequency Traces: Enhancing V-JEPA with Mixture-of-Experts for Robust Synthetic Image Forensics | arXiv, 2026 | [Paper](https://arxiv.org/abs/2609.16778) · [Code](https://github.com/ALCOR-Lab-DIAG/MoE-JEPA) |
+| Code-in-the-Loop Forensics: Agentic Tool Use for Image Forgery Detection | arXiv, 2025 | [Paper](https://arxiv.org/abs/2512.16300) |
+| WildFake: A Large-Scale and Hierarchical Dataset for AI-Generated Images Detection | AAAI, 2025 | [Paper](https://www.paperdigest.org/paper/?paper_id=aaai-32363-2025-02-25) |
+| Towards Universal AI-Generated Image Detection by Variational Information Bottleneck Network | CVPR, 2025 | [Paper](https://cvpr.thecvf.com/virtual/2025/poster/35206) |
+| A Bias-Free Training Paradigm for More General AI-generated Image Detection | CVPR, 2025 | [Paper](https://cvpr.thecvf.com/virtual/2025/poster/34882) |
+| Community Forensics: Using Thousands of Generators to Train Fake Image Detectors | CVPR, 2025 | [Paper](https://cvpr.thecvf.com/virtual/2025/poster/32740) |
+| Any-Resolution AI-Generated Image Detection by Spectral Learning | CVPR, 2025 | [Paper](https://cvpr.thecvf.com/virtual/2025/poster/33589) |
+| OpenSDI: Spotting Diffusion-Generated Images in the Open World | 2025 | [Paper](https://arxiv.org/abs/2503.19653) · [Code](https://github.com/iamwangyabin/OpenSDI) |
+| Zooming In on Fakes: A Novel Dataset for Localized AI-Generated Image Detection with Forgery Amplification Approach | 2025 | [Paper](https://arxiv.org/abs/2504.11922) · [Code](https://github.com/clpbc/BR-Gen) |
+| Aligned Datasets Improve Detection of Latent Diffusion-Generated Images | ICLR, 2025 | [Paper](https://iclr.cc/virtual/2025/poster/28964) |
+| FakeDiffer: Distributional Disparity Learning on Differentiated Reconstruction for Face Forgery Detection | AAAI, 2025 | [Paper](https://www.paperdigest.org/paper/?paper_id=aaai-32809-2025-02-25) |
+| Transfer Learning of Real Image Features with Soft Contrastive Loss for Fake Image Detection | AAAI, 2025 | [Paper](https://www.paperdigest.org/paper/?paper_id=aaai-34826-2025-02-25) |
+| Critical Forgetting-Based Multi-Scale Disentanglement for Deepfake Detection | AAAI, 2025 | [Paper](https://www.paperdigest.org/paper/?paper_id=aaai-32021-2025-02-25) |
+| Frequency-Aware Deepfake Detection: Improving Generalizability through Frequency Space Learning | 2024 | [Paper](https://arxiv.org/abs/2403.07240) · [Code](https://github.com/chuangchuangtan/freqnet-deepfakedetection) |
+
+## Image splicing and compositing
+
+| Paper | Venue / year | Links |
+|---|---|---|
+| Deep Image Composition Meets Image Forgery | 2024 | [Paper](https://arxiv.org/abs/2404.02897) · [Dataset](https://github.com/99eren99/DIS25k) |
+| Image Splicing Localization Using a Multi-Task Fully Convolutional Network | 2018 | [Paper](https://arxiv.org/abs/1709.02016) · [Code](https://github.com/namtpham/image_tampering_detection_references) |
+| Multi-scale Attention Context-aware Network for Detection and Localization of Image Splicing | Applied Intelligence, 2023 | [Paper](https://link.springer.com/article/10.1007/s10489-022-04421-3) |
+
+## Copy-move forgery
+
+| Paper | Venue / year | Links |
+|---|---|---|
+| Copy-Move Forgery Detection and Question Answering for Remote Sensing Image | 2024 | [Paper](https://arxiv.org/abs/2412.02575) · [Code](https://github.com/shenyedepisa/RSCMQA) |
+| Object-level Copy-Move Forgery Image Detection based on Inconsistency Mining | 2024 | [Paper](https://arxiv.org/abs/2404.00611) |
+| CMCF-Net: An End-to-End Context Multiscale Cross-Fusion Network for Robust Copy-Move Forgery Detection | TMM, 2024 | [Paper](https://doi.org/10.1109/TMM.2023.3345160) |
+
+## Image inpainting and local editing
+
+| Paper | Venue / year | Links |
+|---|---|---|
+| Training-Free Image Manipulation Localization Using Diffusion Models | AAAI, 2025 | [Paper](https://www.paperdigest.org/paper/?paper_id=aaai-33126-2025-02-25) |
+| TGIF: Text-Guided Inpainting Forgery Dataset | 2024 | [Paper](https://arxiv.org/abs/2407.11566) · [Dataset](https://github.com/IDLabMedia/tgif-dataset) |
+| Image Editing Detection in the Era of Generative AI Revolution | ACM MM, 2024 | [Paper](https://arxiv.org/abs/2311.17953) · [Code](https://github.com/ICTMCG/GRE) |
+
+## Document and tampered text detection
+
+### Scene text manipulation
+
+| Paper | Venue / year | Links |
+|---|---|---|
+| TextShield-R1: Reinforced Reasoning for Tampered Text Detection | AAAI, 2026 | [Paper](https://arxiv.org/abs/2602.19828) · [Code](https://github.com/qcf-568/TextShield) |
+| Revisiting Tampered Scene Text Detection in the Era of Generative AI | ICCV, 2025 | [Paper](https://arxiv.org/abs/2407.21422) · [Code](https://github.com/qcf-568/OSTF) |
+| Explainable Tampered Text Detection via Multimodal Large Models | 2024 | [Paper](https://arxiv.org/abs/2412.14816) |
+| Enhancing Tampered Text Detection through Frequency Feature Fusion and Decomposition | ECCV, 2024 | [Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04834.pdf) |
+| Generalized Tampered Scene Text Detection in the Era of Generative AI | 2024 | [Paper](https://arxiv.org/abs/2407.21422) |
+| A Two-Stage Dual-Path Framework for Text Tampering Detection and Recognition | 2024 | [Paper](https://arxiv.org/abs/2402.13545) |
+| Toward Real Text Manipulation Detection: New Dataset and New Solution | Pattern Recognition, 2025 | [Paper](https://arxiv.org/abs/2312.06934) · [Code](https://github.com/DrLuo/RTM) |
+| Towards Robust Tampered Text Detection in Document Image: New Dataset and New Solution | CVPR, 2023 | [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Qu_Towards_Robust_Tampered_Text_Detection_in_Document_Image_New_Dataset_CVPR_2023_paper.pdf) · [Code](https://github.com/qcf-568/DocTamper) |
+
+### Document image localization and benchmarks
+
+| Paper | Venue / year | Links |
+|---|---|---|
+| DOCFORGE-BENCH: A Comprehensive Benchmark for Document Forgery Detection and Analysis | 2026 | [Paper](https://arxiv.org/abs/2603.01433) |
+| RealDTT: Towards a Comprehensive Real-World Dataset for Tampered Text Detection | IJCV, 2025 | [Paper](https://link.springer.com/article/10.1007/s11263-025-02515-2) · [Dataset](https://github.com/edmundhaohao/RealDTT) |
+| ADCD-Net: Robust Document Image Forgery Localization via Adaptive DCT Feature and Hierarchical Content Disentanglement | ICCV, 2025 | [Paper](https://arxiv.org/abs/2507.16397) · [Code](https://github.com/KAHIMWONG/ADCD-Net) |
+| FantasyID: A Dataset for Detecting Digital Manipulations of ID Documents | IJCB, 2025 | [Paper](https://arxiv.org/abs/2507.20808) · [Dataset](https://www.idiap.ch/paper/fantasyid) |
+| DITL²: Dual-Stage Invariance Transfer Learning for Generalizable Document Image Tampering Localization | ACM MM, 2025 | Paper link not provided in [reference list](https://github.com/greatzh/Papers) |
+| Document Image Forgery Detection and Localization in Desensitization Scenarios | Signal Processing: Image Communication, 2025 | [Paper](https://www.sciencedirect.com/science/article/pii/S0165168425002373) |
+| Cross-Attention Based Two-Branch Networks for Document Image Forgery Localization in the Metaverse | TOMM, 2025 | [Paper](https://doi.org/10.1145/3686158) |
+| Delving into Adversarial Robustness on Document Tampering Localization | ECCV, 2024 | [Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08224.pdf) |
+| CTP-Net: Character Texture Perception Network for Document Image Forgery Localization | 2023 | [Paper](https://arxiv.org/abs/2308.02158) · [Code](https://github.com/FCTMdataset/FCTM) |
+| Progressive Supervision for Tampering Localization in Document Images | ICONIP, 2023 | [Paper](https://link.springer.com/chapter/10.1007/978-981-99-8184-7_11) |
+| Image Generation and Learning Strategy for Deep Document Forgery Detection | 2023 | [Paper](https://arxiv.org/abs/2311.03650) |
+| Document Forgery Detection in the Context of Double JPEG Compression | ICPR, 2022 | [Paper](https://link.springer.com/chapter/10.1007/978-3-031-37745-7_5) |
+
+### Signatures and identity documents
+
+| Paper | Venue / year | Links |
+|---|---|---|
+| Handwritten Signature Verification via Multimodal Consistency Learning | TIFS, 2025 | [Paper](https://ieeexplore.ieee.org/document/10950350/) |
+| Image-based Freeform Handwriting Authentication with Energy-oriented Self-Supervised Learning | TMM, 2024 | [Paper](https://arxiv.org/abs/2408.09676) |
+| SigScatNet: A Siamese + Scattering Based Deep Learning Approach for Signature Forgery Detection | 2023 | [Paper](https://arxiv.org/abs/2311.05579) |
+| Forgery-free Signature Verification with Stroke-aware Cycle-consistent Generative Adversarial Network | Neurocomputing, 2022 | [Paper](https://doi.org/10.1016/j.neucom.2022.08.017) · [Code](https://github.com/KAKAFEI123/Stroke-cCycleGAN) |
+
+## Resources
+
+- [greatzh/Papers — Image Tampering](https://github.com/greatzh/Papers)
+- [greatzh/Papers — Tamper Text in Detection](https://github.com/greatzh/Papers)
+- [MIC-ImageForensics/Image-Forgery](https://github.com/MIC-ImageForensics/Image-Forgery)
+
+Contributions and corrections are welcome. Please include the paper link, publication/preprint year, and code or dataset link when available.
